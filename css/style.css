@@ -15,7 +15,7 @@ p, li {
 }
 
 .home {
-    background: url("https://static.pexels.com/photos/245250/pexels-photo-245250.jpeg");
+    background: url("../images/tile-min.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -69,7 +69,7 @@ p, li {
 #titlePage {
     padding-top: 150px;
     text-align: center;
-    height: 450px;
+    height: 500px;
     text-align: center;
     font-family: 'Cinzel', serif;
     color: rgb(255, 166, 1);
@@ -83,21 +83,21 @@ p, li {
 
 #myCarousel {
     background: #2f343b;
-    padding-bottom: 8%;
-    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .item img {
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 65%;
     border-radius: 5px;
 }
 
 .about-section {
     margin: 0;
     width: 100%;
-    background: #eee;
+    background: rgba(255, 255, 255, 0.89);
     padding: 10%;
     text-align: center;
 }
@@ -106,11 +106,11 @@ p, li {
     border-radius: 100%;
     display: block;
     margin: 0 auto;
-    height: 200px;
+    height: 250px;
 }
 
 .about-section .description p {
-    padding-top: 7%;
+    padding-top: 10%;
     font-size: 1.5em;
     font-style: italic
 }
@@ -149,12 +149,28 @@ address {
 
 .border {
     border-bottom: 1px solid lightgray;
-    padding: 5%;
 }
 
 .img-responsive {
+    display: block;
     margin: 0 auto;
     width: 95%;
-    padding-top: 5%;
     border-radius: 5px;
+}
+
+
+.row {
+    padding: 5%;
+}
+
+.services-list {
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.services-list span {
+    font-style: italic;
+    font-size: 1.3em;
+    padding-right: 3%;
+    color: #8f8f8f;
 }
