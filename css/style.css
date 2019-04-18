@@ -69,7 +69,7 @@ p, li {
 #titlePage {
     padding-top: 150px;
     text-align: center;
-    height: 500px;
+    height: 600px;
     text-align: center;
     font-family: 'Cinzel', serif;
     color: rgb(255, 166, 1);
@@ -81,38 +81,17 @@ p, li {
     font-size: 3.3em;
 }
 
-#myCarousel {
-    background: #2f343b;
-    padding-bottom: 3%;
-    padding-top: 3%;
-}
-
-.item img {
-    display: block;
-    margin: 0 auto;
-    width: 65%;
-    border-radius: 5px;
-}
-
 .about-section {
     margin: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.89);
     padding: 10%;
+}
+
+.about-section p {
     text-align: center;
-}
-
-.about-section img {
-    border-radius: 100%;
-    display: block;
-    margin: 0 auto;
-    height: 250px;
-}
-
-.about-section .description p {
-    padding-top: 10%;
-    font-size: 1.5em;
-    font-style: italic
+    font-size: 1.75em;
+    font-style: italic;
 }
 
 .footer {
@@ -157,7 +136,6 @@ address {
     width: 95%;
     border-radius: 5px;
 }
-
 
 .row {
     padding: 5%;
